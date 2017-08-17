@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn_shape_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shapebase"
+        android:text="ShapTest"
+        android:textColor="@color/color_white" />
+
+    <Button
+        android:id="@+id/btn_layer_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layerlistbase"
+        android:padding="8dp"
+        android:textColor="@color/color_white"
+        android:text="LayerLisstTest"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btn_layer_list_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shadowlayerlistbase"
+        android:padding="8dp"
+        android:text="LayerLisstTest2"
+        android:textSize="12sp" />
+
+</LinearLayout>

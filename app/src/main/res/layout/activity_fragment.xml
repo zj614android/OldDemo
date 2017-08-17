@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <fragment
+        android:id="@+id/title_frag"
+        android:name="com.zj.myfuncdemos.fragment.Fragment_title"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <FrameLayout
+        android:id="@+id/content_framelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8" >
+    </FrameLayout>
+
+    <!--
+       <fragment
+        android:id="@+id/content_frag"
+        android:name="com.zj.myfuncdemos.fragment.Fragment_2"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8" />    -->
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        layout="@layout/bottombar" />
+
+</LinearLayout>

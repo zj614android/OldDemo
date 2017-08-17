@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backlkjx"
+    android:orientation="vertical" >
+
+    <com.zj.myfuncdemos.custmerui.view.RoundStatistics
+        android:id="@+id/rounds"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp" >
+    </com.zj.myfuncdemos.custmerui.view.RoundStatistics>
+
+</LinearLayout>

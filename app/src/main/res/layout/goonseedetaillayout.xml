@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.zj.myfuncdemos.custmerui.view.UpToSeeScrollView
+        android:id="@+id/goonscrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true" >
+
+        <RelativeLayout
+            android:id="@+id/scollcontentroot"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <View
+                android:id="@+id/scroll_inner_1"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:background="@color/color_red" >
+            </View>
+
+            <View
+                android:id="@+id/scroll_inner_2"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_below="@id/scroll_inner_1"
+                android:background="@android:color/holo_green_light" >
+            </View>
+        </RelativeLayout>
+    </com.zj.myfuncdemos.custmerui.view.UpToSeeScrollView>
+
+</LinearLayout>

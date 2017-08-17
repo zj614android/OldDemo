@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backback"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/talking_socket"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_bg_normal"
+                android:text="聊天入口" />
+
+            <Button
+                android:id="@+id/usecamera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_bg_normal"
+                android:text="相机Camera" />
+
+            <Button
+                android:id="@+id/usemediaplayerrecord"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_bg_normal"
+                android:text="录制音乐mediaplayer" />
+
+            <Button
+                android:id="@id/aidl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_bg_normal"
+                android:text="aidl" />
+
+            <Button
+                android:id="@id/jni"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_bg_normal"
+                android:text="jni" />
+
+            <Button
+                android:id="@+id/notify"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_bg_normal"
+                android:text="弹出一个通知" />
+
+            <Button
+                android:id="@id/bt_2_volley"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/yellow"
+                android:text="volley框架使用" />
+
+            <Button
+                android:id="@+id/bt_2_servicebrodcast_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/yellow"
+                android:text="服务案例_mediaplayer_服务的应用场景" />
+
+            <Button
+                android:id="@+id/bt_2_servicebrodcast_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/yellow"
+                android:text="广播案例_通过广播与activity进行通信" />
+
+            <Button
+                android:id="@+id/bt_2_servicebrodcast_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/yellow"
+                android:text="服务案例_通过IBinder与activity进行通信" />
+
+            <Button
+                android:id="@+id/bt_2_servicebrodcast_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/yellow"
+                android:text="广播案例_广播计数刷新activity上的控件" />
+
+            <Button
+                android:id="@+id/service_pool"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/yellow"
+                android:text="服务轮询" />
+
+            <Button
+                android:id="@id/bt_2_asynchttpthreadpool"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/yellow"
+                android:text="异步网络请求_线程池_软引用" />
+
+            <Button
+                android:id="@+id/btn_greendao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/yellow"
+                android:text="greenDao" />
+
+            <Button
+                android:id="@+id/bt_2_webview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/yellow"
+                android:text="  WebView  " />
+
+            <Button
+                android:id="@+id/bt_2_htmlformat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/yellow"
+                android:text="  htmlformat  " />
+
+            <Button
+                android:id="@+id/zdyview_handlock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/org"
+                android:text="自定义view_手势锁"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/zdyview_calendar_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/org"
+                android:text="自定义view_日历控件"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/zdyview_clockstep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/org"
+                android:text="倒数读秒"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/updragseedetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/org"
+                android:text="向上拖动查看详情"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/zdyview_checkcode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/org"
+                android:text="自定义view_验证码"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/cardview_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/org"
+                android:text="Card_View结合（自定义）CenterTextViewGroup做的一个Item"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/roundAnimButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/org"
+                android:text="roundAnimButton自定义圆环动画按钮"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/zdyview_clock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/org"
+                android:text="自定义view_时钟"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/flow_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/org"
+                android:text="流式布局"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/animator_property"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/org"
+                android:text="属性动画"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@id/zdyview_circle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/org"
+                android:text="自定义view_圆形百分比"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@id/zdyview_toggle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/org"
+                android:text="自定义view_开关"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@id/zdyview_indoor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/org"
+                android:text="自定义view_indoor"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/zdyview_imgedittext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/org"
+                android:text="组合控件_待图片的edittext"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/mypicstextbottombar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/org"
+                android:text="图片文字底部导航栏"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/zdyview_hacker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/org"
+                android:text="自定义view_黑客帝国"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_shape"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/org"
+                android:text="shape"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_theme_btn_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/org"
+                android:text="theme/style"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@id/slidingmenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/org"
+                android:text="slidingmenu"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@id/zdyview_draw_pad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/org"
+                android:text="自定义view_画板"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@id/fragment_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_bg_focus"
+                android:gravity="left"
+                android:text="fragment_TAB_搭建框架_①_fragment事物搭建"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@id/fragment_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_bg_focus"
+                android:text="fragment_TAB_搭建框架_②_viewpager"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/frag_viewpager_pager_adapter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_bg_focus"
+                android:text="fragment_TAB_搭建框架_③_frag_viewpager_pager_adapter"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/newapi_swipeRefreshLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_bg_focus"
+                android:text="api_support_19+_SwipeRefreshLayout_谷歌推荐的下啦组件"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@id/zdyview_lvrefresh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_bg_focus"
+                android:text="ListView利用oncroll方法判断是否滑动到顶部或者底部，未做下啦刷新，仅仅是判断是否滑动到了顶部"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/footerandheader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_bg_focus"
+                android:text="ListView利用addheaderview来做下来刷新，用ontouch方式来判断是否滑动到顶部"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/recyclerview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_bg_focus"
+                android:text="瀑布流（可变幻的瀑布流）"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/recyclerviewtolistview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_bg_focus"
+                android:text="recyclerview 仿 ListView"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/recyclerview_standard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_bg_focus"
+                android:text="瀑布流（固定瀑布流）"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/lv2select"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_bg_focus"
+                android:text="单个更新listiview条目"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/viewpagers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_bg_focus"
+                android:text="viewpagers"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/spinner_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_bg_focus"
+                android:text="spinner"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/gridview_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_bg_focus"
+                android:text="gridview"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/pullablelistview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_bg_focus"
+                android:text="pullablelistview"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/popupmenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_bg_focus"
+                android:text="popupmenu"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/badgemenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_bg_focus"
+                android:text="badgeview"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.zj.myfuncdemos.custmerui.view.ImgEditext
+        android:id="@+id/myimgedittext"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp" >
+    </com.zj.myfuncdemos.custmerui.view.ImgEditext>
+
+    <EditText
+        android:id="@+id/edittext_test"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="left"
+        android:background="@drawable/layerlist_edittext_background"
+        android:gravity="bottom"
+        android:hint="用户名/手机号"
+        android:inputType="text"
+        android:padding="5dp"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/bt_pass_what"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="密文明文" />
+
+</LinearLayout>

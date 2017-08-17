@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <declare-styleable name="CustmerUi_first_view">
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="textWord" format="string" />
+    </declare-styleable>
+
+    <attr name="rightpadding" format="dimension" />
+
+    <declare-styleable name="HorScroSlidingMenu">
+        <attr name="rightpadding" />
+    </declare-styleable>
+
+    <attr name="titleText" format="string" />
+    <attr name="titleTextColor" format="color" />
+    <attr name="titleTextSize" format="dimension" />
+
+    <declare-styleable name="CustomTitleView">
+        <attr name="titleText" />
+        <attr name="titleTextColor" />
+        <attr name="titleTextSize" />
+    </declare-styleable>
+
+</resources>

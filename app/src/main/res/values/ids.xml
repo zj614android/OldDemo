@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="ac1_bt_img" type="id"/>
+    <item name="ac1_reqImg" type="id"/>
+    <item name="ac1_bt_str" type="id"/>
+    <item name="ac1_reqstr" type="id"/>
+    <item name="ac1_bt_json" type="id"/>
+    <item name="ac1_reqjson" type="id"/>
+    <item name="bt_2_volley" type="id"/>
+    <item name="bt_2_asynchttpthreadpool" type="id"/>
+    <item name="circle" type="id"/>
+    <item name="fragandactionbar" type="id"/>
+    <item name="ac1_bt_json_2_parse" type="id"/>
+    <item name="zdyview_draw_pad" type="id"/>
+    <item name="openotherapp" type="id"/>
+    <item name="aidl" type="id"/>
+    <item name="jni" type="id"/>
+    <item name="slidingmenu" type="id"/>
+
+    <!-- 自定义view -->
+    <item name="zdyview_circle" type="id"/>
+    <item name="zdyview_toggle" type="id"/>
+    <item name="zdyview_indoor" type="id"/>
+    <item name="zdyview_lvrefresh" type="id"/>
+
+    <!-- fragment -->
+    <item name="fragment_1" type="id"/>
+    <item name="fragment_2" type="id"/>
+
+</resources>

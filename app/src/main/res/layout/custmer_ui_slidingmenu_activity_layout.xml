@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mydemos="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.zj.myfuncdemos.custmerui.view.HorScroSlidingMenu
+        android:id="@+id/horscrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/backtf"
+        mydemos:rightpadding="100dp" >
+
+        <LinearLayout
+            android:id="@+id/wrapper"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/leftmenu"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#0000" >
+
+                    <ScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:orientation="vertical" >
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" >
+
+                                <ImageView
+                                    android:id="@+id/one"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="20dp"
+                                    android:clickable="true"
+                                    android:src="@drawable/img_1" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_toRightOf="@id/one"
+                                    android:text="登录"
+                                    android:textColor="#f0f0f0"
+                                    android:textSize="20sp" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" >
+
+                                <ImageView
+                                    android:id="@+id/two"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="20dp"
+                                    android:clickable="true"
+                                    android:src="@drawable/img_2" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_toRightOf="@id/two"
+                                    android:text="注册"
+                                    android:textColor="#f0f0f0"
+                                    android:textSize="20sp" />
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </ScrollView>
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rightcontent"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@drawable/backb1ackyht" >
+
+                <LinearLayout
+                    android:id="@+id/ll_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_content"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="内容区域 " />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </com.zj.myfuncdemos.custmerui.view.HorScroSlidingMenu>
+
+</LinearLayout>
